@@ -1,0 +1,37 @@
+//general styling
+// font-family: 'Domine', serif;
+// font-family: 'Roboto', sans-serif;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Domine", serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font: 1.8rem;
+}
+
+p {
+  font-size: 1.5rem;
+}

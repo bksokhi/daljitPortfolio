@@ -1,0 +1,54 @@
+//header / nav
+.logo img {
+  width: 45px;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+nav,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+//hero
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  font-size: 2.5rem;
+}
+
+//about
+.aboutContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  .aboutText {
+    width: 50%;
+  }
+  .profile {
+    width: 40%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+//specialties
+.specialties {
+  margin-bottom: 100px;
+}
+
+//footer
+footer {
+  text-align: center;
+}
