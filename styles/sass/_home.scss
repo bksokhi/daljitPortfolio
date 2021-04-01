@@ -5,7 +5,7 @@
 
 li {
   list-style: none;
-  padding: 5px;
+  padding: 10px;
 }
 
 nav,
@@ -46,6 +46,12 @@ ul {
 //specialties
 .specialties {
   margin-bottom: 100px;
+
+  .subjects {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
 }
 
 //footer
