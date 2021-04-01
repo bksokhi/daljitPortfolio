@@ -293,11 +293,11 @@ h3 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 h3 {
-  font: 1.8rem;
+  font: 3rem;
 }
 
 p {
@@ -310,7 +310,7 @@ p {
 
 li {
   list-style: none;
-  padding: 5px;
+  padding: 10px;
 }
 
 nav,
@@ -367,6 +367,16 @@ ul {
 
 .specialties {
   margin-bottom: 100px;
+}
+
+.specialties .subjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
 }
 
 footer {
